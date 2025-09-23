@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel with Advanced 3D BG</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://cdn.jsdelivr.net/npm/three@latest/build/three.module.js",
+                "three/addons/": "https://cdn.jsdelivr.net/npm/three@latest/examples/jsm/"
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="carousel-container">
+        <div class="carousel-track">
+            <div class="card active"><img src="https://picsum.photos/id/42/600/400" alt="Red Planet"><div class="content"><h3>Red Planet</h3><p>A world of deserts and volcanoes.</p></div></div>
+            <div class="card"><img src="https://picsum.photos/id/99/600/400" alt="Gas Giant"><div class="content"><h3>Gas Giant</h3><p>Witness colossal, centuries-old storms.</p></div></div>
+            <div class="card"><img src="https://picsum.photos/id/152/600/400" alt="Stellar Nursery"><div class="content"><h3>Stellar Nursery</h3><p>Gaze into a nebula where stars are born.</p></div></div>
+            <div class="card"><img src="https://picsum.photos/id/120/600/400" alt="Ringed World"><div class="content"><h3>Ringed World</h3><p>Journey through the iconic icy rings.</p></div></div>
+            <div class="card"><img src="https://picsum.photos/id/175/600/400" alt="Spiral Galaxy"><div class="content"><h3>Spiral Galaxy</h3><p>Behold a vast city of stars.</p></div></div>
+        </div>
+    </div>
+    <div class="carousel-nav">
+        <button id="prevBtn">←</button>
+        <button id="nextBtn">→</button>
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
