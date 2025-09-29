@@ -7,7 +7,7 @@
 [![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)](https://threejs.org/)
 
 A visually stunning, responsive card carousel layered on top of a dynamic, high-performance `three.js` animated background. This project showcases modern web technologies to create an immersive and interactive user experience.
-
+![Carousel Screenshot](https://raw.githubusercontent.com/Sadikn7i/Carousel-cards/master/pic.png)
 ---
 
 ## ✨ Features
